@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header"
+import Search from "./components/SearchBlock"
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-full w-full px-6 sm:px-10 md:px-0">
+      <div className="max-w-[737px] mx-auto pt-6 sm:pt-[58px] pb-20 sm:pb-28">
+          <Header />
+          <Search />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
