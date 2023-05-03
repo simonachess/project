@@ -49,7 +49,7 @@ const Header = () => {
     }
 
     return (
-        <header role="banner" className="w-full flex justify-between mb-[52px]">
+        <header className="w-full flex justify-between mb-[52px]">
             <img src="./icons/book.svg" alt="book" height="36" width="32" />
             <div className="flex space-x-[26px] text-default-300 dark:text-default-10">
                 <Select
