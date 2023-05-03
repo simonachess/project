@@ -118,6 +118,7 @@ const Header = () => {
                     options={fontFamilyOptions}
                     onChange={handleFontFamilyChange}
                     value={fontFamilyOptions.find((option) => option.value === fontFamily)}
+                    aria-label="font-family select"
                 />
                 <span className="w-px h-8 bg-default-100"></span>
                 <div className="flex space-x-5">
