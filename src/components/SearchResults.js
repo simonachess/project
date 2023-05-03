@@ -22,7 +22,7 @@ useEffect(() => {
 },[props.data])
 
     return (
-        <div>
+        <div role="main">
             { Array.isArray(props.data) ?
                 <div className="space-y-14">
                     { props.data?.map((x, i) => (

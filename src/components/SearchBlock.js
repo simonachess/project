@@ -35,7 +35,7 @@ const SearchBlock = () => {
 
     return (
         <>
-            <div className="mb-[45px]">
+            <div role="navigation" className="mb-[45px]">
                 <TextInput
                     name="search"
                     value={searchTerm}
@@ -44,6 +44,7 @@ const SearchBlock = () => {
                     hasIcon
                     error={error}
                     errorMessage="Whoops, can't be empty..."
+                    aria-label="Search"
                 >
                     <Button onClick={handleSearch}>
                         <img src="./icons/search.svg" alt="search" height="16" width="16" />
